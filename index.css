@@ -33,7 +33,7 @@ html {
   }
   
   header {
-    background-color: #F4EEFF;
+    background-color: #EFFFFD;
     display: flex;
     justify-content: space-between;
     padding: 20px 40px 20px;
@@ -471,13 +471,13 @@ html {
   /* footer */
   /* Style the footer */
   .upfooter {
-    background-color: #A6B1E1;
+    background-color: #FDE9C9;
     padding: 10px;
     text-align: center;
   }
   
   .footer {
-    background-color: #A6B1E1;
+    background-color: #FDE9C9;
     padding: 10px;
   }
   
