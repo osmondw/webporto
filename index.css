@@ -50,7 +50,7 @@ html {
   }
   
    a {
-    color: #85F4FF;
+    color: white;
     opacity: 0.5;
     text-align: center;
     padding: 18px 18px;
@@ -107,7 +107,7 @@ html {
     height: 100%;
     background-size: cover;
     z-index: -1;
-    background-color: #A6B1E1;
+    background-color: #4FD3C4;
   }
   
   .hero h1 {
