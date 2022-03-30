@@ -478,7 +478,7 @@ html {
   
   .footer {
     background-color: #FDE9C9;
-    padding: 30px;
+    padding-top: 30px;
     animation-name: fadein;
     animation-duration: 0.8s;
     animation-delay: 0.75s;
