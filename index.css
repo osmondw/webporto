@@ -1,10 +1,7 @@
 
 html {
     font-family: "Lucida Console", "Courier New", monospace;
-    animation-name: fadein;
-    animation-duration: 0.8s;
-    animation-delay: 0.5s;
-    animation-timing-function: ease-in;
+    
   }
   
   
@@ -475,7 +472,6 @@ html {
   /* footer */
   /* Style the footer */
   .upfooter {
-    background-color: #FDE9C9;
     padding: 10px;
     text-align: center;
   }
@@ -483,6 +479,10 @@ html {
   .footer {
     background-color: #FDE9C9;
     padding: 10px;
+    animation-name: fadein;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in;
   }
   
   
