@@ -33,7 +33,7 @@ html {
   }
   
   header {
-    background-color: #488FB1;
+    background-color: #408AB4;
     display: flex;
     justify-content: space-between;
     padding: 20px 40px 20px;
@@ -51,16 +51,16 @@ html {
   
    a {
     color: white;
-    opacity: 0.5;
+    opacity: 1;
     text-align: center;
     padding: 18px 18px;
     text-decoration: none;
-    transition: opacity 0.3s ease-out;
+    transition: opacity 0.5s ease-out;
   }
   a:hover {
       opacity: 1;
       padding: 18px 18px;
-      transition: opacity 0.3s ease-out;
+      transition: opacity 0.5s ease-out;
   }
   header h2 {
     font-size:30px;
@@ -78,6 +78,13 @@ html {
     animation-timing-function: ease-in;
   }
   
+  header nav a:hover {
+    transition: background-color 0.3s ease-out;
+    animation-name:background-color;
+    background-color: #34699A;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+  }
   header nav li {
     /* border-radius: 10px;
     background-color:#A6B1E1; */
@@ -95,8 +102,8 @@ html {
     min-height: 80vh;
     color: #488FB1;
     animation-name: fadein;
-    animation-duration: 0.8s;
-    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-delay: 0.8s;
     animation-timing-function: ease-in;
   }
   
@@ -116,6 +123,7 @@ html {
     margin-bottom: 15px;
     transition: font-size 0.2s ease-out;
   }
+  /*
   .hero h1:hover {
     font-size:55px;
     transition: font-size 0.2s ease-out;
@@ -124,9 +132,10 @@ html {
     animation-duration: 5s;
     animation-iteration-count: infinite;
   }
+  */
   .hero h3 {
     font-size: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
   
   @keyframes fontcolor {
@@ -172,7 +181,6 @@ html {
   }
 
   .direction a i {
-    display: flex;
     margin-right: 10px;
     justify-content: space-between;
   }
@@ -184,7 +192,8 @@ html {
     justify-content: center;
     flex-direction: row;
     text-align: center;
-    transition: color 1s ease-out;
+    animation-delay:1s;
+    transition: color 0.3s ease-out;
   }
   .direction a:hover {
     color: #DCD6F7;
@@ -475,13 +484,12 @@ html {
   
   .footer {
     background-color: #FDE9C9;
-    padding: 30px;
+    padding: 27px;
     animation-name: fadein;
     animation-duration: 0.8s;
     animation-delay: 0.75s;
     animation-timing-function: ease-in;
   }
-  
   
   
   .title {
