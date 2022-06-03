@@ -20,16 +20,7 @@ html {
     padding: 0;
   }
   
-  
-  .screensaver {
-    width: 300px;
-    height: 150px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    float :none;
-  }
+
   
   header {
     background-color: #488FB1;
@@ -78,8 +69,6 @@ html {
   }
   
   header nav li {
-    /* border-radius: 10px;
-    background-color:#A6B1E1; */
     font-size:20px;
     font-family: "Lucida Console", "Courier New", monospace;
     margin: 0 10px;
@@ -157,7 +146,6 @@ html {
     padding: 10px 25px;
     opacity: 1;
     transition: padding 0.3s ease-out;
-    
   }
   
   
@@ -167,7 +155,6 @@ html {
     display: flex;
     flex-direction: row;
     font-size: 20px;
-    
   }
 
   .direction a i {
